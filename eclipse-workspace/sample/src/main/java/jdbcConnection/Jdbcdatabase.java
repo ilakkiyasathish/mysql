@@ -20,6 +20,7 @@ public class Jdbcdatabase {
 		try {
 			Connection connection=DriverManager.getConnection(db_url, username, pass);
 			//perform the operation
+			//
 			String createDB="create database JDBC_DEMO";
 			String useDB="use JDBC_DEMO";
 			String createTable="create table JDBC_DEMO(empcode int UNIQUE,empname varchar(20) NOT NULL,empage int, easlary decimal(10,2))";
