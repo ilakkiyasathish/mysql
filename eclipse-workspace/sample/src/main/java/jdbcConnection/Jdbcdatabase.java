@@ -29,7 +29,7 @@ public class Jdbcdatabase {
 			String insertvalue3=" insert into JDBC_DEMO VALUES(103,'JEO',20,40000.00)";
 			String insertvalue4=" insert into JDBC_DEMO VALUES(104,'JOHN',40,80000.00)";
 			String insertvalue5=" insert into JDBC_DEMO VALUES(105,'SHAMEER',25,90000.00)";
-			
+			//
 			String select="SELECT *FROM jdbc_DEMO";
 			Statement sm= connection.createStatement();
 			sm.execute(createDB);
